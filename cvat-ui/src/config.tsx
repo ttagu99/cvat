@@ -13,7 +13,9 @@ const GITTER_URL = 'https://gitter.im/opencv-cvat';
 const DISCORD_URL = 'https://discord.gg/fNR3eXfk6C';
 const GITHUB_URL = 'https://github.com/opencv/cvat';
 const GITHUB_IMAGE_URL = 'https://github.com/opencv/cvat/raw/develop/site/content/en/images/cvat.jpg';
-const GUIDE_URL = 'https://opencv.github.io/cvat/docs';
+// const GUIDE_URL = 'https://opencv.github.io/cvat/docs';
+const GUIDE_URL = 'https://www.notion.so/deepaivsion/LABELING-dddc0831832f4108ae107744d2c6033e';
+
 const UPGRADE_GUIDE_URL = 'https://opencv.github.io/cvat/docs/administration/advanced/upgrade_guide';
 const SHARE_MOUNT_GUIDE_URL =
     'https://opencv.github.io/cvat/docs/administration/basics/installation/#share-path';

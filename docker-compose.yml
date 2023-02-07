@@ -172,7 +172,7 @@ services:
 
   cvat_ui:
     container_name: cvat_ui
-    image: cvat/ui:${CVAT_VERSION:-dev}
+    image: cvat_mnc_ui:latest #cvat/ui:${CVAT_VERSION:-dev}
     restart: always
     depends_on:
       - cvat_server
@@ -202,8 +202,8 @@ services:
     #   - traefik.http.routers.dashboard.service=api@internal
     #   - traefik.http.routers.dashboard.rule=Host(`${CVAT_HOST:-localhost}`)
     ports:
-      - 8080:8080
-      - 8090:8090
+      - 40004:8080
+      - 40003:8090
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     networks:

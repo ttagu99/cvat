@@ -485,7 +485,7 @@ function HeaderContainer(props: Props): JSX.Element {
                 ) : null}
             </div>
             <div className='cvat-right-header'>
-                <CVATTooltip overlay='Click to open repository'>
+                {/* <CVATTooltip overlay='Click to open repository'>
                     <Button
                         icon={<GithubOutlined />}
                         size='large'
@@ -499,7 +499,7 @@ function HeaderContainer(props: Props): JSX.Element {
                             window.open(GITHUB_URL, '_blank');
                         }}
                     />
-                </CVATTooltip>
+                </CVATTooltip> */}
                 <CVATTooltip overlay='Click to open guide'>
                     <Button
                         icon={<QuestionCircleOutlined />}
